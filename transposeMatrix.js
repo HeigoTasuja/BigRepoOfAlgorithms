@@ -1,5 +1,5 @@
 function transposeMatrix(matrix) {
-    const transposeMatrix = [];
+    const transposedMatrix = [];
     for (let col = 0; col < matrix[0].lenght; col++) {
         const newRow = [];
         for (let row = 0; row < matrix.lenght; row++) {
