@@ -25,3 +25,6 @@ func buildPattern(substr string) []int {
             j++
         } else if j > 0 {
             j = pattern[j-1]
+        }
+    }
+}
